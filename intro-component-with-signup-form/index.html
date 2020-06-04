@@ -36,17 +36,17 @@ but understanding how developers think is invaluable.</p>
   <div class="btn">
     <button><span>Try it free 7 days</span> then <br>$20/mo.thereafter</button>
   </div>
- <form action="post">
-   <input type="text" placeholder="First Name" required>
+ <form action="post" aria-label="form">
+   <input type="text" placeholder="First Name" aria-label="first" required>
 <br>
-   <input type="text" placeholder="Last Name" required>
+   <input type="text" placeholder="Last Name" aria-label="last name" required>
 <br>
-<input placeholder="Email" type="email" name="email" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
+<input placeholder="Email" type="email" aria-label="email" name="email" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
    <br>
-   <input placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" id="password" name="password" required>
+   <input placeholder="Password" aria-label="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" id="password" name="password" required>
 
 <br>
-   <input id="button" type="submit" value="CLAIM YOUR FREE TRIAL">
+   <input id="button" type="submit" aria-label="submit" "CLAIM YOUR FREE TRIAL">
 
    <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
  </form>
