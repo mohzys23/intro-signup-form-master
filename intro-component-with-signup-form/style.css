@@ -1,0 +1,317 @@
+@media (max-width: 550px) {
+
+  body {
+   padding: 0;
+   margin: 0;
+   font size: 16px;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+  }
+
+  .wrapper {
+    background-color: hsl(0, 100%, 74%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/bg-intro-mobile.png);
+  }
+
+
+  .inner-wrapper {
+    width: 100%;
+    color: white;
+
+  }
+
+.heading-1 {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 25%;
+  margin-bottom: 7%;
+}
+
+
+ h1 {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+
+  .p-1 {
+    width: 90%;
+    margin-left: 5%;
+    padding: 1%;
+  }
+
+  .p-1 p {
+    width: 80%;
+    text-align: center;
+    padding-left: 10%;
+  }
+
+  .btn {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .btn button {
+    width: 90%;
+    text-align: center;
+    background-color: hsl(248, 32%, 49%);
+    border: 1px solid hsl(248, 32%, 49%);
+    border-radius: 5px;
+    padding: 5%;
+    color: white;
+    outline: none;
+    box-shadow: -webkit-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+  }
+
+  .btn span {
+    font-weight: bold;
+  }
+
+  form {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  input {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 5%;
+    outline: none;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 10px;
+    color: black;
+    padding-left: 2%;
+    font-weight: bold;
+  }
+
+  #button {
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%);
+    color: white;
+    -webkit-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+  }
+
+  form p {
+    width: 70%;
+    color: hsl(246, 25%, 77%);
+    font-size: 0.8rem;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+
+  form span {
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+  }
+
+  footer {
+    width: 100%;
+    color: white;
+  }
+
+  footer p {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+}
+
+
+/* Desktop styling */
+
+@media (min-width: 551px) {
+
+
+
+    body {
+     padding: 0;
+     margin: 0;
+     font size: 16px;
+     font-family: 'Poppins', sans-serif;
+     display: flex;
+    }
+
+    .wrapper {
+      background-color: hsl(0, 100%, 74%);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url(images/bg-intro-desktop.png);
+}
+
+
+    .inner-wrapper {
+      width: 50%;
+      color: white;
+      float: left;
+    }
+
+
+    .heading-1 {
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 38%;
+      margin-bottom: 3%;
+    }
+
+
+     h1 {
+        width: 60%;
+        font-size: 2rem;
+        text-align: left;
+      }
+
+
+      .p-1 {
+        width: 90%;
+        margin-left: 5%;
+        padding: 1%;
+      }
+
+      .p-1 p {
+        width: 80%;
+        padding-left: 10%;
+      }
+
+
+    .inner-wrapper2 {
+      width: 50%;
+    float: right;
+    }
+
+
+    .btn {
+      width: 70%;
+      margin-top: 11%;
+      margin-left: 10%;
+      text-align: center;
+      margin-bottom: 3%;
+    }
+
+    .btn br {
+      display: none;
+    }
+
+    .btn button {
+      width: 100%;
+      text-align: center;
+      background-color: hsl(248, 32%, 49%);
+      border: 1px solid hsl(248, 32%, 49%);
+      border-radius: 5px;
+      padding: 4%;
+      color: white;
+      outline: none;
+      box-shadow: -webkit-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+    }
+
+    .btn span {
+      font-weight: bold;
+    }
+
+    form {
+      width: 70%;
+      margin-left: 10%;
+      border: 1px solid hsl(246, 25%, 77%);
+      border-radius: 10px;
+      background-color: white;
+    }
+
+    input {
+      width: 80%;
+      height: 50px;
+      margin-left: 10%;
+      margin-top: 5%;
+      outline: none;
+      border: 1px solid hsl(246, 25%, 77%);
+      border-radius: 10px;
+      color: black;
+      padding-left: 2%;
+      font-weight: bold;
+    }
+
+    #button {
+      background-color: hsl(154, 59%, 51%);
+      border: 1px solid hsl(154, 59%, 51%);
+      color: white;
+      -webkit-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.75);
+    }
+
+    form p {
+      width: 70%;
+      color: hsl(246, 25%, 77%);
+      font-size: 0.8rem;
+      margin-left: 15%;
+      text-align: center;
+    }
+
+
+    form span {
+      color: hsl(0, 100%, 74%);
+      font-weight: bold;
+    }
+
+    footer {
+      width: 100%;
+      color: white;
+      float: left;
+    }
+
+    footer p {
+      width: 80%;
+      margin-left: 10%;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
